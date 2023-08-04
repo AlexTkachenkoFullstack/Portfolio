@@ -1,0 +1,78 @@
+.container.contact__container {
+  width: 75%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12%;
+}
+
+.contact__options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact__option {
+  width:300px;
+  background: var(--color-bg-variant);
+  padding: 1.0rem;
+  /* padding-bottom: 1.0rem; */
+  border-radius: 1.2rem;
+  border: 1px solid transparent;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.contact__option:hover {
+  background: #2187b0;
+  border-color: var(--color-primary-variant);
+}
+
+.ontact__option-icon {
+  font-size: 1.5m;
+  margin-bottom: 0.5rem;
+}
+
+ontact__option a {
+  display: inline-block;
+  margin-top: 0.7rem;
+  font-size: 0.8rem;
+}
+
+/*FORM*/
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  border-radius: 0.5rem;
+  background: rgb(197 232 246 / 81%);
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  color: #1b119c;
+  font-size: 20px;
+  font-family: 'Edu SA Beginner', cursive;
+}
+
+/*media*/
+@media (max-width: 1024px) {
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .contact__option {
+    width:auto;}
+}
+
+@media (max-width: 600px) {
+  .container.contact__container {
+    width: var(--container-width-sm);
+  }
+}

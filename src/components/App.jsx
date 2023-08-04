@@ -1,16 +1,24 @@
-export const App = () => {
+import React from 'react';
+import Header from './Header/Header';
+import Nav from './Nav/Nav';
+import About from './About/About';
+import Experience from './Experience/Experience';
+import Portfolio from './Portfolio/Portfolio';
+import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
+
+const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Portfolio />
+      <Contact />
+      <Footer />
+    </>
   );
 };
+
+export default App;
