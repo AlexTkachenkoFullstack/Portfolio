@@ -21,7 +21,7 @@ nav a {
   padding: 0.9rem;
   border-radius: 50%;
   color: var(--color-light);
-  font-size: 1.1rem;
+  font-size: 1.9rem;
 }
 
 nav a:hover {
@@ -31,4 +31,16 @@ nav a:hover {
 nav a.active {
   background: var(--color-primary);
   color: var(--color-bg);
+}
+
+@media (max-width: 1024px) {
+  nav a {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  nav a {
+    font-size: 0.9rem;
+  }
 }

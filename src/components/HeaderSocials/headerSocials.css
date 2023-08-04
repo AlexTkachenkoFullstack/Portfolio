@@ -1,0 +1,11 @@
+.header_icon{
+    width:32px;
+    height: 32px;
+}
+
+@media (max-width: 1024px) {
+    .header_icon{
+        width:24px;
+        height: 24px;
+    }
+}

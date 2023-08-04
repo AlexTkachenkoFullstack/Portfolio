@@ -1,3 +1,11 @@
+#portfolio h5{
+font-size: 28px;
+}
+
+#portfolio h2{
+  font-size: 40px;
+}
+
 .portfolio__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -38,8 +46,20 @@
   margin-bottom: 1rem;
 }
 
+.portfolio__item-cta>a{
+  font-size: 28px;
+}
+
 /*media*/
 @media (max-width: 1024px) {
+  #portfolio h5{
+font-size: 24px;
+}
+
+#portfolio h2{
+  font-size: 32px;
+}
+
   .portfolio__container {
     grid-template-columns: repeat(1, 1fr);
     gap: 1.2rem;
@@ -52,9 +72,21 @@
     padding-left:0.4rem;
     padding-right: 0.4rem;
   }
+
+  .portfolio__item-cta>a{
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 600px) {
+#portfolio h5{
+font-size: 20px;
+}
+
+#portfolio h2{
+  font-size: 24px;
+}
+
   .portfolio__container {
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
@@ -74,5 +106,8 @@
     width:auto;
     max-width: 300px;
     height: 160px;
+  }
+  .portfolio__item-cta>a{
+    font-size: 18px;
   }
 }

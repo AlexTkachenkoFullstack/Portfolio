@@ -10,6 +10,13 @@ header {
   text-align: center;
 }
 
+.header__container h5{
+  font-size: 32px;
+}
+
+.header__container h1{
+  font-size: 40px;
+}
 /*CTA*/
 
 .cta {
@@ -33,8 +40,8 @@ header {
 
 .header__socials::after {
   content: '';
-  width: 1px;
-  height: 2rem;
+  width: 2px;
+  height: 2.5rem;
   background: var(--color-primary);
 }
 
@@ -59,7 +66,7 @@ header {
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 24px;
 }
 
 /*media*/
@@ -67,12 +74,35 @@ header {
   header {
     /* height: 79vh; */
   }
+  .header__container h5{
+    font-size: 26px;
+  }
+
+  .header__container h1{
+    font-size: 32px;
+  }
+
+  .scroll__down {
+    font-size: 20px;
+  }
+  .header__socials::after {
+    width: 1px;
+    height: 2rem;
+  }
 }
 
 @media (max-width: 600px) {
   header {
     /* height: 100vh; */
   }
+  .header__container h5{
+    font-size: 20px;
+  }
+
+  .header__container h1{
+    font-size: 24px;
+  }
+
   .header__socials,
   .scroll__down {
     display: none;

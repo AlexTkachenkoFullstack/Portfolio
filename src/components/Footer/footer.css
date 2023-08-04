@@ -8,6 +8,7 @@ footer {
 
 footer a {
   color: var(--color-bg);
+  font-size: 26px;
 }
 
 .footer__logo {
@@ -53,6 +54,11 @@ footer a {
 }
 
 /*media*/
+@media (max-width: 1024px) {
+  footer a {
+    font-size: 18px;
+  }
+}
 
 @media (max-width: 600px) {
   .permalinks {
@@ -62,5 +68,9 @@ footer a {
 
   .footer__socials {
     margin-bottom: 2.6rem;
+  }
+
+  footer a {
+    font-size: 18px;
   }
 }
