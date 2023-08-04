@@ -1,44 +1,37 @@
 [
   {
     "id": 1,
-    "image": "assets/portfolio1.jpg",
-    "title": "This is a portfolio item title",
-    "github": "https://github.com",
-    "demo": "https://dribble.com/Alien_pixels"
+    "image": "/images/Webstudio.png",
+    "title": "Webstudio",
+    "github": "https://github.com/AlexTkachenkoFullstack/Webstudio",
+    "demo": "https://alextkachenkofullstack.github.io/Webstudio/"
   },
   {
     "id": 2,
-    "image": "assets/portfolio2.jpg",
-    "title": "This is a portfolio item title",
-    "github": "https://github.com",
-    "demo": "https://dribble.com/Alien_pixels"
+    "image": "/images/Ice-cream.png",
+    "title": "Ice-cream",
+    "github": "https://github.com/AlexTkachenkoFullstack/ice-cream",
+    "demo": "https://alextkachenkofullstack.github.io/ice-cream/"
   },
   {
     "id": 3,
-    "image": "assets/portfolio3.jpg",
-    "title": "This is a portfolio item title",
-    "github": "https://github.com",
-    "demo": "https://dribble.com/Alien_pixels"
+    "image": "/images/Bookshelf.png",
+    "title": "Bookshelf",
+    "github": "https://github.com/AlexTkachenkoFullstack/bookshelf",
+    "demo": "https://alextkachenkofullstack.github.io/bookshelf/"
   },
   {
     "id": 4,
-    "image": "assets/portfolio4.jpg",
-    "title": "This is a portfolio item title",
-    "github": "https://github.com",
-    "demo": "https://dribble.com/Alien_pixels"
+    "image": "/images/Phonebook.png",
+    "title": "Phonebook app",
+    "github": "https://github.com/AlexTkachenkoFullstack/your-phonebook",
+    "demo": "https://alextkachenkofullstack.github.io/your-phonebook/"
   },
   {
     "id": 5,
-    "image": "assets/portfolio5.png",
-    "title": "This is a portfolio item title",
-    "github": "https://github.com",
-    "demo": "https://dribble.com/Alien_pixels"
-  },
-  {
-    "id": 6,
-    "image": "assets/portfolio6.jpg",
-    "title": "This is a portfolio item title",
-    "github": "https://github.com",
-    "demo": "https://dribble.com/Alien_pixels"
+    "image": "/images/Movie.jpg",
+    "title": "Movie-mania",
+    "github": "https://github.com/AlexTkachenkoFullstack/movie-mania",
+    "demo": "https://alextkachenkofullstack.github.io/movie-mania/"
   }
 ]

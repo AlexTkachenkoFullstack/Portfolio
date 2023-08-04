@@ -38,6 +38,8 @@
 
 .experience__details-icon {
   margin-top: 6px;
+  width: 24px;
+  height:24px;
   color: var(--color-primary);
 }
 

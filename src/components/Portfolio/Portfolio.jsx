@@ -4,6 +4,7 @@ import './portfolio.css';
 import data from '../portfolio.json';
 
 const Portfolio = () => {
+  console.log(data)
   return (
     <section id="portfolio">
       <h5>My recent Work</h5>
@@ -14,7 +15,7 @@ const Portfolio = () => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__container-image">
-                <img src={image} alt={title} />
+                <img src={process.env.PUBLIC_URL +image} alt={title} />
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
