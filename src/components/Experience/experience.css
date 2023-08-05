@@ -105,6 +105,10 @@
     font-size: 22px;
   }
 
+  .experience__content {
+    padding: 0rem;
+  }
+
   .experience__details h4{
     font-size: 18px;
   }
