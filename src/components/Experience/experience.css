@@ -42,7 +42,7 @@
 
 .experience__details {
   display: flex;
-  gap: 1rem;
+  gap: 0.3rem;
 }
 
 .experience__details-icon {
