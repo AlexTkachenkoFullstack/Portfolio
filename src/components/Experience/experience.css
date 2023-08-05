@@ -104,4 +104,8 @@
   .experience__container > div h3 {
     font-size: 22px;
   }
+
+  .experience__details h4{
+    font-size: 18px;
+  }
 }
