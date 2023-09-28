@@ -19,7 +19,7 @@ const About = () => {
           </div>
 
           <p>
-          I am Junior Full-stack developer with a solid understanding of HTML, CSS, JavaScript React and React Native, Node.js, Express, MongoDB. I have experience working on team projects and specialize in creating visually appealing and user-friendly web applications, while also writing efficient code in JavaScript. My passion for innovation motivates me to constantly expand my skillset and explore new technologies. I am a quick learner with strong attention to detail, and I am excited to join a team where I can continue to develop both personally and professionally and make meaningful contributions to project success.
+          I am a Junior fullstack Developer with a strong grasp of HTML, CSS, JavaScript, TypeScript, React, Node.js, and React Native. I have experience working as a team lead on collaborative projects and specialize in crafting visually appealing and user-friendly web applications, while also writing efficient JavaScript code. My enthusiasm for innovation drives me to continually expand my skill set and explore emerging technologies. I am a fast learner with keen attention to detail and am eager to join a team where I can further develop both personally and professionally, making meaningful contributions to project success.
           </p>
 
           <a href="#contact" className="btn btn-primary">

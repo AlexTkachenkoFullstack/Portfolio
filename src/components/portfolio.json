@@ -33,5 +33,12 @@
     "title": "Movie-mania",
     "github": "https://github.com/AlexTkachenkoFullstack/movie-mania",
     "demo": "https://alextkachenkofullstack.github.io/movie-mania/"
+  },
+  {
+    "id": 6,
+    "image": "/images/Healthy-hub.png",
+    "title": "Healthy-hub",
+    "github": "https://github.com/AlexTkachenkoFullstack/healthy-hub",
+    "demo": "https://alextkachenkofullstack.github.io/healthy-hub/"
   }
 ]
