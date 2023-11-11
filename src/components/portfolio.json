@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "image": "/images/Auto-rent.png",
-    "title": "Auro-rent",
-    "github": "https://github.com/AlexTkachenkoFullstack/rent-car",
-    "demo": "https://alextkachenkofullstack.github.io/rent-car/"
+    "image": "/images/Webstudio.png",
+    "title": "Webstudio",
+    "github": "https://github.com/AlexTkachenkoFullstack/Webstudio",
+    "demo": "https://alextkachenkofullstack.github.io/Webstudio/"
   },
   {
     "id": 2,
@@ -18,7 +18,7 @@
     "image": "/images/Bookshelf.png",
     "title": "Bookshelf",
     "github": "https://github.com/AlexTkachenkoFullstack/bookshelf",
-    "demo": "https://bookshelf-for-you.netlify.app/"
+    "demo": "https://alextkachenkofullstack.github.io/bookshelf/"
   },
   {
     "id": 4,
@@ -40,5 +40,12 @@
     "title": "Healthy-hub",
     "github": "https://github.com/AlexTkachenkoFullstack/healthy-hub",
     "demo": "https://alextkachenkofullstack.github.io/healthy-hub/"
+  },
+  {
+    "id": 7,
+    "image": "/images/Auto-rent.png",
+    "title": "Auro-rent",
+    "github": "https://github.com/AlexTkachenkoFullstack/rent-car",
+    "demo": "https://alextkachenkofullstack.github.io/rent-car/"
   }
 ]
