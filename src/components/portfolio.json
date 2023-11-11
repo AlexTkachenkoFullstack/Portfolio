@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "image": "/images/Webstudio.png",
-    "title": "Webstudio",
-    "github": "https://github.com/AlexTkachenkoFullstack/Webstudio",
-    "demo": "https://alextkachenkofullstack.github.io/Webstudio/"
+    "image": "/images/Auto-rent.png",
+    "title": "Auro-rent",
+    "github": "https://github.com/AlexTkachenkoFullstack/rent-car",
+    "demo": "https://alextkachenkofullstack.github.io/rent-car/"
   },
   {
     "id": 2,
@@ -18,7 +18,7 @@
     "image": "/images/Bookshelf.png",
     "title": "Bookshelf",
     "github": "https://github.com/AlexTkachenkoFullstack/bookshelf",
-    "demo": "https://alextkachenkofullstack.github.io/bookshelf/"
+    "demo": "https://bookshelf-for-you.netlify.app/"
   },
   {
     "id": 4,
